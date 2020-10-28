@@ -11,9 +11,12 @@ body {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20x
+  padding: 20x;
   /* CSS box model:
-   * DEFONE MARGIN, PADDING AND CONTENT (WHAT IT DOES). W3schools box model link is a refresher
+   * margin: area around the border (which contains the padding and content)
+   * padding: area surrounding the content
+   * content: box where the text and images appear 
+   * source: https://www.w3schools.com/css/css_boxmodel.asp
    */
 }
 #col-left {
@@ -25,12 +28,14 @@ body {
 .clearFix {
     clear: both;
 }
-#img-profile {
-
+h1 {
+  color: #a64ac9;
 }
 #link-github {
-
+  padding: 2px;
+  border-radius: 5px;
+  border-color: #a64ac9;
 }
 .link {
-
+  color: #a64ac9;
 }
