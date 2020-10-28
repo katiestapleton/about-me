@@ -1,2 +1,2 @@
 # about-me
-HTML-CSS project for about-me website through Skilled KC
+HTML-CSS-JavaScript project for about-me website through Skilled KC
