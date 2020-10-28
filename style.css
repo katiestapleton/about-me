@@ -1,0 +1,36 @@
+/* CSS for about-me profile website*/
+
+body {
+  background-color: black;
+}
+#container {
+  background-color: white;
+  font-family: https://fonts.googleapis.com/css?family=Asap;
+  color: black;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20x
+  /* CSS box model:
+   * DEFONE MARGIN, PADDING AND CONTENT (WHAT IT DOES). W3schools box model link is a refresher
+   */
+}
+#col-left {
+  float: left;
+}
+#col-right {
+  float: right;
+}
+.clearFix {
+    clear: both;
+}
+#img-profile {
+
+}
+#link-github {
+
+}
+.link {
+
+}
