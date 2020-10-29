@@ -1,11 +1,11 @@
 /* CSS for about-me profile website*/
 
 body {
-  background-color: black;
+  background-color: pink;
 }
 #container {
   background-color: white;
-  font-family: https://fonts.googleapis.com/css?family=Asap;
+  font-family: Asap, sans-serif;
   color: black;
   width: 50%;
   margin-top: 20px;
@@ -19,22 +19,24 @@ body {
    * source: https://www.w3schools.com/css/css_boxmodel.asp
    */
 }
+.clearFix {
+    clear: both;
+}
 #col-left {
   float: left;
 }
 #col-right {
   float: right;
 }
-.clearFix {
-    clear: both;
-}
 h1 {
   color: #a64ac9;
 }
+
 #link-github {
-  padding: 2px;
-  border-radius: 5px;
-  border-color: #a64ac9;
+  padding: 10px;
+  border: 3px solid #a64ac9;
+  border-radius: 4px;
+  width: fit-content; 
 }
 .link {
   color: #a64ac9;

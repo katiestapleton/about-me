@@ -6,37 +6,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!--link may need updating after publishing. If fine, remove this comment-->
         <link rel="stylesheet" type="text/css" href="style.css">
-  
+        <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet" type="text/css">
         <title>Katie Stapleton: Professional Profile</title>
 
     </head>
     <body>
+        <!-- consider better spacing later-->
+        <!-- ISSUE: floating issue. Where should I place "class=clearFix". Attempted, but problem is unresolved. clearFix is now removed the coding-->
         <div id="container">
-            <div id="col-left" class="clearFix">
+            <div id="col-left">
                 <h1>About Me</h1>
-                <!--add sentences-->
-                <h2>Computer Programmer, Full-stack Developer, and Business Representative.  </h2>
+                <h2>Computer Programmer, Full-stack Developer and Business Representative.  </h2>
                 <p>I am driven by problem solving, creativity, and exploration. I value leadership, accountability, and respect.  </p>
-                <!--absolute to githhub profile page-->
-                <a id="link-github" class="link" target="_blank" rel="noopener noreferrer" href="https://github.com/katiestapleton">Visit My Github</a>
-                
+
+                <!--ISSUE: do I need a div to format the link's box model??-->
+                <div id="link-github">
+                  <a class="link" target="_blank" href="https://github.com/katiestapleton">Visit My Github</a>
+                </div>
+
                 <h3>Hi There!</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus aut consequuntur quia, adipisci doloribus repudiandae nihil repellat atque, asperiores consectetur ipsum! Ipsum vero dicta quisquam. Aut et dicta reiciendis libero?</p>
 
                 <h3>Current Projects</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore et magnam libero fuga a cupiditate ducimus debitis cumque animi itaque reprehenderit ut quaerat perferendis voluptas fugiat, voluptatibus, vero explicabo. Ut?</p>
 
-                <h3>My Favorite Coding Website</h3>
+                <h3>My Favorite Websites</h3>
                 <ul>
-                    <!--add sources and website names-->
-                    <li><a class="link" target="_blank" rel="noopener noreferrer" href="">https://www.sololearn.com/</a>SoloLearn</li>
+                    <li><a class="link" target="_blank" rel="noopener noreferrer" href="https://www.sololearn.com/">SoloLearn</a></li>
                     <li><a class="link" target="_blank" rel="noopener noreferrer" href="https://www.codingame.com/start">CodinGame</a></li>
                     <li><a class="link" target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/">CodeWars</a></li>
                 </ul>
 
             </div>
 
-            <div id="col-right" class="clearFix">
+            <div id="col-right">
                 <!--add relative link to image. img/?imgname.type?. may need to change after publishing. if fine, delete comment-->
                 <img id="img-profile" src="img/profilepic01.jpg" alt="profile picture"> 
             </div>
