@@ -13,9 +13,9 @@ body {
   color: black;
   width: 50%;
   margin-top: 20px;
-  margin-left: auto;
+  /*margin-left: auto;
   margin-right: auto;
-  padding: 20x;
+  */padding: 20x;
   /* CSS box model:
    * margin: area around the border (which contains the padding and content)
    * padding: area surrounding the content
