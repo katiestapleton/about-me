@@ -1,10 +1,18 @@
-/* CSS for about-me profile website*/
+/* CSS for about-me profile website
+ * 2 known issues: 
+ * floating
+ * div background color (correct body color once fixed
+ */
 
+/* ADD BACK. once div background issue resolved.
 body {
-  background-color: pink;
+    background-color: black;
 }
-#container {
-  background-color: white;
+*/
+/*browser does not acknowledge div container background color. 
+ *When resolved: switch container background to white. uncomment body background*/
+#container {  
+  background-color: blue;
   font-family: Asap, sans-serif;
   color: black;
   width: 50%;
