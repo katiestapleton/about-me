@@ -4,11 +4,11 @@
  */
 
 body {
-    background-color: pink;
+    background-color: black;
 }
 
 #container {  
-  background-color: blue;
+  background-color: white;
   font-family: Asap, sans-serif;
   color: black;
   width: 50%;
