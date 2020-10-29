@@ -13,9 +13,8 @@ body {
   color: black;
   width: 50%;
   margin-top: 20px;
-  /*margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-  */padding: 20x;
   /* CSS box model:
    * margin: area around the border (which contains the padding and content)
    * padding: area surrounding the content
@@ -27,6 +26,7 @@ body {
     clear: both;
 }
 #col-left {
+  padding-left: 10px;
   width: 48%;
   float: left;
 }
@@ -38,11 +38,13 @@ h1 {
   color: #a64ac9;
 }
 #link-github {
-  padding: 10px;
   border: 3px solid #a64ac9;
   border-radius: 4px;
   width: fit-content; 
 }
 .link {
   color: #a64ac9;
+}
+#overview-general {
+  margin: 10px;
 }
